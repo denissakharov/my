@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  vod-transcoding:
+    build:
+      context: "./vod-transcoding"
+    working_dir: "/app"
+    volumes:
+      - "./vod-transcoding/:/app"
+    command: "node index.js"

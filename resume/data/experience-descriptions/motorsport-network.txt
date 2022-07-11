@@ -1,0 +1,1 @@
+Developing SPA with React. Here I am for the senior in frontend: I supervise front-end development and train frontend developers.

@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  frontend:
+    image: "node:16"
+    command: bash -c "yarn && yarn dev"
+    working_dir: "/frontend"
+    volumes:
+      - "./frontend:/frontend"
+    ports:
+      - "3000:3000"
